@@ -1,0 +1,38 @@
+#wrap {width: 100%;height: 100%;z-index: 1;position: relative;overflow-x: hidden;overflow-y: scroll;margin: 0 auto;}
+#wrap::-webkit-scrollbar {width: 20px;}
+#wrap::-webkit-scrollbar-thumb {background: rgb(199, 235, 240);border-radius: 10px;box-shadow: inset 0px 0px 5px white;}
+#wrap::-webkit-scrollbar-track {background: rgb(247, 247, 226);border-radius: 10px;box-shadow: inset 0px 0px 5px white;}
+
+#wrap #header {z-index: 3;position: absolute;overflow: hidden;top: 0;left: 0;width: 100%;height: 120px;display: flex;margin: 0 auto;border-bottom: 3px ridge #fff;}
+
+#wrap #header .logo {width: 270px;height: 100%;padding:9px 50px;background: #fff;position: relative;}
+#wrap #header .logo #logoSvgBg {position: relative;width: 100%;z-index: 1;}
+#wrap #header .logo #logoSvg {position: absolute;top: 0;left: 0;z-index: 2;width: 100%;padding:5px 50px;}
+
+#wrap #header .logo #logoSvgBg {position: relative;width: 100%;z-index: 1;}
+#wrap #header .logo #logoSvgBg .st0,.st1,.st2,.st3,.st4,.st5,.st6,.st7,.st8  {fill:#999;stroke:#9cf;}
+#wrap #header .logo #logoSvg .st0,.st1,.st2,.st3,.st4,.st5,.st6,.st7,.st8 {fill:#fff;stroke:#333;}
+
+#wrap #main {z-index: 2;position: relative;padding: 150px 0 0 0;margin: 0 auto;max-width: 1100px;}
+#wrap #main h1 {font-size: 40px;color: #ffa;font-weight: 600;font-family: 'Noto Serif KR';padding: 30px 20px;}
+#wrap #main .coment {display: flex;margin: 0 auto;}
+#wrap #main .coment img {padding: 30px 150px 60px 50px;width: 50%;}
+#wrap #main .coment p {display: block;margin: auto;font-size: 18px;font-weight: 550;color: #fff;line-height: 200%;font-family: 'Noto Serif KR';}
+#wrap #main .number {width: 100%;}
+#wrap #main .number ul {width: 100%;}
+#wrap #main .number ul li {display: flex;width: 33.333%;}
+#wrap #main .number ul li img {width: 100%;padding: 5px;}
+
+
+
+#wrap #header .main-btn {width: 100%;height: 120px;padding: 55px 0 64px 150px;backdrop-filter: blur(10px)}
+#wrap #header .main-btn ul {display: flex;}
+#wrap #header .main-btn ul li {width: 25%;}
+#wrap #header .main-btn ul li a {color: #fff;font-size: 20px;text-align: center;font-weight: 600;}
+#wrap #header .main-btn ul li:hover a {color: #9cf;}
+
+#wrap #footer {z-index: 2;position: relative;width: 100%;height: 150px;padding: 100px 0 0 0;margin: 0 auto;max-width: 1100px;}
+#wrap #footer .container {display: flex;}
+#wrap #footer .container h2 {color:rgba(255,255,255,.5);font-size: 20px;}
+#wrap #footer .container hr {width: 700px;background: rgba(255,255,255,.4);height: 1px;margin: 10px;}
+#wrap #footer .container p {color:rgba(255,255,255,.5);font-size: 15px;}

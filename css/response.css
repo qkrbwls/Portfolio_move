@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+@media all and (max-width:1100px){
+    #wrap #main #section2 .container {padding: 0 3%;}
+    #wrap #main #section2 .container .title hr {width: 20%;}
+    #wrap #main #section2 .container .title h2 {padding: 10px 0 10px 0.5%;}
+    #wrap #main #section2 .container .contents .gap {padding: 3.5%;}
+    #wrap #main #section2 .container .contents .gap h3 {padding: 2%;}
+    #wrap #main #section2 .container .contents .gap p {padding: 3%;line-height: 180%;}
+    
+    #wrap #main #section4 .container {padding: 0 3%;}
+
+    #wrap #main #section5 .container .gap {padding: 2%;}
+    #wrap #main #section5 .container .gap .content .img-box {width: 450px;position: relative;padding: 0 2.727%;margin: 0 auto;}
+    
+    #wrap #footer .container hr {width: 59.8%;margin: 1%;}
+}
+
+@media all and (max-width:1000px){
+    #wrap #header .main-btn {padding: 5.583% 0 5.583% 6%;}
+    #wrap #header .main-btn ul li a {font-size: 20px;}
+ 
+    #wrap #main #section1 .container .title h1 {font-size: 45px;padding: 0 0 3% 0;}
+    #wrap #main #section1 .container .title p {font-size: 45px;}
+    #wrap #main #section1 .container .titleR h2 {font-size: 90px;}
+    
+    #wrap #main #section2 .container .title hr {width: 200px;}
+}
+
+@media all and (max-width:830px){
+    #wrap #main #section1 .container .title {padding: 11.667% 6.410% 0 6.410%;font-family: 'Noto Serif KR';}
+    #wrap #main #section1 .container .title h1 {font-size: 40px;padding: 0 0 3% 0;}
+    #wrap #main #section1 .container .title p {font-size: 40px;}
+    #wrap #main #section1 .container .titleR {bottom: -150px;right: 10.10%;}
+    #wrap #main #section1 .container .titleR h2 {font-size: 80px;}
+}
+
+@media all and (max-width:817px){
+    #wrap #main #section1 .container .title {padding: 11.667% 6.410% 0 9.410%;font-family: 'Noto Serif KR';}
+    #wrap #main #section1 .container .title h1 {font-size: 35px;padding: 0 0 4% 0;}
+    #wrap #main #section1 .container .title p {font-size: 35px;}
+    #wrap #main #section1 .container .titleR {bottom: -65%;right: 13.10%;}
+    #wrap #main #section1 .container .titleR h2 {font-size: 75px;}
+    #wrap #footer .container hr {width: 30%;}
+}
+
+@media all and (max-width:768px){
+    #wrap #main #section2 .container {height:1500px;}
+    #wrap #main #section2 .container .contents.con3 .gap {display: block;}
+    #wrap #main #section2 .container .contents.con2 {height: 350px;}
+    #wrap #main #section2 .container .contents.con3 {height: 540px;}
+
+    #wrap #main #section4 .container ul li .contents .left {width: 8%;}
+    #wrap #main #section4 .container ul li .contents .center {width: 50%;padding: 0 1.953% 0 0.651%;}
+    #wrap #main #section4 .container ul li .contents .right {width: 50%;}
+    #wrap #main #section4 .container ul li .contents .right .top .explain {padding: 2%;}
+    #wrap #main #section4 .container ul li .contents .right .top .explain h2 {font-size: 15px;line-height: 145%;}
+    #wrap #main #section4 .container ul li .contents .right .bottom .skill {padding: 1.953% 0 1.302% 1.953%;}
+    #wrap #main #section4 .container ul li .contents .right .bottom .skill h3 {font-size: 17px;font-weight: 550;padding: 4.302% 0;}
+    #wrap #main #section4 .container ul li .contents .right .bottom .link {padding: 3.953% 0;text-align: center;}
+    #wrap #main #section4 .container ul li .contents .right .bottom .link .live {padding: 0 3.208%;}
+    #wrap #main #section4 .container ul li .contents .right .bottom .link .git {padding: 0 5.208%;}
+
+    #wrap #main #section4 .container ul li .contents.con2 .right .bottom .link {padding: 0;display: block;}
+    #wrap #main #section4 .container ul li .contents.con2 .right .bottom .link .git {padding: 0 3%;}
+    #wrap #main #section4 .container ul li .contents.con2 .right .bottom .link .git button {line-height: 180%;}
+}
+
+@media all and (max-width:742px){
+    #wrap #header .main-btn {padding: 6% 3% 5% 3%;}
+    #wrap #header .main-btn ul li {margin: 0 auto;}
+    #wrap #header .main-btn ul li a {font-size: 20px;}
+
+    #wrap #main #section1 .container .title {padding: 11.667% 6.410% 0 9.410%;font-family: 'Noto Serif KR';}
+    #wrap #main #section1 .container .title h1 {font-size: 30px;line-height: 130%;}
+    #wrap #main #section1 .container .title p {font-size: 30px;}
+    #wrap #main #section1 .container .titleR {bottom: -65%;right: 14.10%;}
+    #wrap #main #section1 .container .titleR h2 {font-size: 65px;}
+}
+
+@media all and (max-width:700px){
+    #wrap #main #section2 .container .contents.con1 {height: 400px;}
+    #wrap #main #section2 .container .contents.con3 {height: 520px;}
+    
+    #wrap #main #section3 {padding: 25% 0;}
+}
+
+@media all and (max-width:670px){
+    #wrap #main #section4 .container ul li .contents {height: 50%;display: block;flex-wrap: row wrap;padding: 5%;}
+    #wrap #main #section4 .container ul li .contents .left {width: 100%;height: 5vh;}
+    #wrap #main #section4 .container ul li .contents .left h2 {font-size: 17px;}
+    #wrap #main #section4 .container ul li .contents .center {width: 100%;padding:3% 0;height: 24vh;overflow: hidden;}
+    #wrap #main #section4 .container ul li .contents .center .content {overflow: hidden;}
+    #wrap #main #section4 .container ul li .contents .center .content .gap {padding: 0;}
+    #wrap #main #section4 .container ul li .contents .right {width: 100%;height: 50%;padding: 5% 0;}
+    #wrap #main #section4 .container ul li .contents .right .top {width: 100%;height: 50%;}
+    #wrap #main #section4 .container ul li .contents .right .top .explain {padding: 3%;}
+    #wrap #main #section4 .container ul li .contents .right .top .explain h2 {font-size: 15px;line-height: 140%;}
+    #wrap #main #section4 .container ul li .contents .right .bottom {width: 100%;height: 50%;}
+    #wrap #main #section4 .container ul li .contents .right .bottom .skill {padding: 5% 0 5% 3%;}
+    #wrap #main #section4 .container ul li .contents .right .bottom .skill h3 {font-size: 17px;font-weight: 500;padding: 0 0 5% 0;}
+    #wrap #main #section4 .container ul li .contents .right .bottom .img-box img {padding: 2%;}
+    #wrap #main #section4 .container ul li .contents .right .bottom .link {padding: 3%;display: block;text-align: right;}
+    #wrap #main #section4 .container ul li .contents .right .bottom .link .live {padding: 0 5%;}
+    #wrap #main #section4 .container ul li .contents .right .bottom .link .live button {width: 110px;line-height: 180%;padding: 5%;}
+    #wrap #main #section4 .container ul li .contents .right .bottom .link .live button a {font-size: 15px;}
+    #wrap #main #section4 .container ul li .contents .right .bottom .link .git {padding: 5%;}
+    #wrap #main #section4 .container ul li .contents .right .bottom .link .git button {width: 110px;line-height: 180%;padding: 5%;}
+    #wrap #main #section4 .container ul li .contents .right .bottom .link .git button a {font-size: 15px;}
+    #wrap #main #section4 .container ul li .contents.con2 .right .bottom .link {padding: 0;display: block;}
+    #wrap #main #section4 .container ul li .contents.con2 .right .bottom .link .live {padding: 5%;line-height: 180%;}
+    #wrap #main #section4 .container ul li .contents.con2 .right .bottom .link .git {padding: 0 3%;display: block;}
+    #wrap #main #section4 .container ul li .contents.con2 .right .bottom .link .git button {line-height: 180%;padding: 5%;margin: 0;}
+    
+}
+
+@media all and (max-width:650px){
+    #wrap #header .main-btn {padding:5% 0;text-align: center;}
+    #wrap #header .main-btn ul {flex-flow: row wrap;}
+    #wrap #header .main-btn ul li {width: 50%;padding: 1% 0;}
+    #wrap #header .main-btn ul li a {font-size: 20px;}
+    
+    #wrap #main #section5 .container .gap .content {display: block;}
+    #wrap #main #section5 .container .gap .content .img-box {width: 100%;padding: 5% 3%;margin: 0 auto;}
+    #wrap #main #section5 .container .gap .content .img-box .back-face .text-box .text-gap hr {width: 100%;}
+    #wrap #main #section5 .container .gap .content .img-box .back-face .text-box {padding:0;}
+    #wrap #main #section5 .container .gap .content .img-box .back-face .text-box .text-gap {padding: 12.195%;}
+    
+    #wrap #footer {padding: 20% 0 0 0;}
+    #wrap #footer .container h2 {font-size: 14px;}
+    #wrap #footer .container hr {display: none;}
+    #wrap #footer .container p {font-size: 14px;}
+}
+
+@media all and (max-width:535px){
+    #wrap #main #section2 .container {height:1600px;}
+    #wrap #main #section2 .container .contents.con1 {height: 450px;}
+    #wrap #main #section2 .container .contents.con2 {height: 400px;}
+    #wrap #main #section2 .container .contents.con3 {height: 520px;}
+}
+
+@media all and (max-width:474px){
+    #wrap #header .main-btn ul li {padding: 3% 0;}
+    #wrap #main #section2 .container {height:1700px;}
+    #wrap #main #section2 .container .contents.con1 {height: 500px;}
+    #wrap #main #section2 .container .contents.con2 {height: 450px;}
+}
+
+@media all and (max-width:410px){
+    #wrap #header .logo {width: 45%;padding: 5.195% 1% 0 1%;}
+    #wrap #header .logo #logoSvg {padding: 7.220% 1% 0 1%;}
+    #wrap #header .main-btn {padding:5% 0;text-align: center;}
+    #wrap #header .main-btn ul {flex-flow: row wrap;}
+    #wrap #header .main-btn ul li {width: 50%;}
+    #wrap #header .main-btn ul li a {font-size: 15px;line-height: 250%;}
+    #wrap #main #section1 {height: 70vh;}
+    #wrap #main #section1 .container .title {padding: 15.667% 6.410% 0 9.410%;}
+    #wrap #main #section1 .container .title h1 {font-size: 30px;}
+    #wrap #main #section1 .container .title p {font-size: 30px;}
+    #wrap #main #section1 .container .titleR {bottom: -70%;right: 14%;}
+    #wrap #main #section1 .container .titleR h2 {font-size: 60px;}
+
+    #wrap #main #section2 .container .contents .gap h3 {font-size: 18px;padding: 2%;}
+    #wrap #main #section2 .container .contents .gap p {font-size: 15px;}
+    #wrap #main #section2 .container {height:1400px;}
+    #wrap #main #section2 .container .contents.con1 {height: 350px;}
+    #wrap #main #section2 .container .contents.con2 {height: 350px;}
+    #wrap #main #section2 .container .contents.con3 {height: 400px;}
+
+    #wrap #main #section3 {padding: 20% 0;}
+
+    #wrap #main #section4 .container ul li .contents .left {width: 100%;height: 7vh;}
+    
+    #wrap #footer .container h2 {font-size: 12px;}
+    #wrap #footer .container p {font-size: 12px;}
+}

@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/response.css">
+    <script src="./js/lib/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+   
+    <div id="wrap">
+        <header id="header">
+            <div class="logo">
+                <svg id="logoSvgBg" viewBox="0 0 297 205">
+               <path class="st0" d="M36.1,10.87h22.35c7.87,0,14.18,1.83,18.95,5.49c4.77,3.66,7.15,8.49,7.15,14.49c0,6.32-2.41,11.27-7.24,14.85
+                   c-4.83,3.58-11.51,5.37-20.05,5.37h-3.1v24.7H36.1V10.87z M54.16,23.31v15.32c4.05-0.06,7.04-0.7,8.97-1.9
+                   c1.93-1.2,2.89-3.09,2.89-5.69c0-2.79-0.93-4.76-2.8-5.91C61.35,23.99,58.33,23.38,54.16,23.31z"/>
+               <path class="st1" d="M148.26,75.77h-18.77l-3.04-10.84h-19.07l-3.16,10.84H85.8l21.1-64.91h20.26L148.26,75.77z M122.99,53.26
+                   c-2.7-9.66-4.73-18.85-6.08-27.57h-0.24c-1.43,8.98-3.44,18.17-6.02,27.57H122.99z"/>
+               <path class="st2" d="M157.38,10.87h21.04c8.5,0,15.22,1.78,20.14,5.35c4.93,3.57,7.39,8.41,7.39,14.54c0,3.14-0.93,6.18-2.8,9.12
+                   c-1.87,2.93-4.59,5.15-8.17,6.64l14.42,29.27h-19.07l-14.6-29.56h-0.3v29.56h-18.06V10.87z M175.43,23.41v15.41
+                   c7.99-0.13,11.98-2.41,11.98-6.86c0-3.01-0.92-5.17-2.77-6.47C182.79,24.2,179.72,23.51,175.43,23.41z"/>
+               <path class="st3" d="M219.59,10.87h18.06V41.4h0.3l17.04-30.53h18.95l-18.47,33.16l17.7,31.75h-19.84l-15.38-26.98h-0.3v26.98
+                   h-18.06V10.87z"/>
+               <path class="st4" d="M8.95,130.35h20.26c4.49,9.33,7.75,16.53,9.77,21.59h0.24c2.03-5.19,5.24-12.38,9.65-21.59h20.74l-21.34,35.54
+                   v29.37h-18.3v-29.37L8.95,130.35z"/>
+               <path class="st5" d="M78.44,130.35h18.53v45.7c0,2.14,0.69,3.83,2.09,5.08c1.39,1.25,3.26,1.87,5.6,1.87
+                   c2.42,0,4.34-0.66,5.75-1.99c1.41-1.33,2.12-3.16,2.12-5.49v-45.17h18.42v42.59c0,5.8-0.93,10.45-2.8,13.95
+                   c-1.87,3.5-4.62,6.07-8.25,7.71s-8.71,2.46-15.23,2.46c-9.62,0-16.39-2.01-20.32-6.03c-3.93-4.02-5.9-10.81-5.9-20.37V130.35z"/>
+               <path class="st6" d="M155.86,130.35h18.06v46.67c0,6-1.92,10.83-5.75,14.51c-3.84,3.68-8.91,5.52-15.23,5.52
+                   c-3.97,0-7.89-0.89-11.74-2.67V179.6c3.61,1.94,6.22,2.92,7.81,2.92c4.57,0,6.85-2.37,6.85-7.1V130.35z"/>
+               <path class="st7" d="M191.14,130.35h18.06v64.91h-18.06V130.35z"/>
+               <path class="st8" d="M226.84,130.35h18.24l22.94,37.44l-0.65-7v-30.44h18.06v64.91h-18.53l-22.47-36.85l0.48,8.07v28.78h-18.06
+                   V130.35z"/>
+                </svg>
+                <svg id="logoSvg" viewBox="0 0 297 205">
+               <path class="st0" d="M36.1,10.87h22.35c7.87,0,14.18,1.83,18.95,5.49c4.77,3.66,7.15,8.49,7.15,14.49c0,6.32-2.41,11.27-7.24,14.85
+                   c-4.83,3.58-11.51,5.37-20.05,5.37h-3.1v24.7H36.1V10.87z M54.16,23.31v15.32c4.05-0.06,7.04-0.7,8.97-1.9
+                   c1.93-1.2,2.89-3.09,2.89-5.69c0-2.79-0.93-4.76-2.8-5.91C61.35,23.99,58.33,23.38,54.16,23.31z"/>
+               <path class="st1" d="M148.26,75.77h-18.77l-3.04-10.84h-19.07l-3.16,10.84H85.8l21.1-64.91h20.26L148.26,75.77z M122.99,53.26
+                   c-2.7-9.66-4.73-18.85-6.08-27.57h-0.24c-1.43,8.98-3.44,18.17-6.02,27.57H122.99z"/>
+               <path class="st2" d="M157.38,10.87h21.04c8.5,0,15.22,1.78,20.14,5.35c4.93,3.57,7.39,8.41,7.39,14.54c0,3.14-0.93,6.18-2.8,9.12
+                   c-1.87,2.93-4.59,5.15-8.17,6.64l14.42,29.27h-19.07l-14.6-29.56h-0.3v29.56h-18.06V10.87z M175.43,23.41v15.41
+                   c7.99-0.13,11.98-2.41,11.98-6.86c0-3.01-0.92-5.17-2.77-6.47C182.79,24.2,179.72,23.51,175.43,23.41z"/>
+               <path class="st3" d="M219.59,10.87h18.06V41.4h0.3l17.04-30.53h18.95l-18.47,33.16l17.7,31.75h-19.84l-15.38-26.98h-0.3v26.98
+                   h-18.06V10.87z"/>
+               <path class="st4" d="M8.95,130.35h20.26c4.49,9.33,7.75,16.53,9.77,21.59h0.24c2.03-5.19,5.24-12.38,9.65-21.59h20.74l-21.34,35.54
+                   v29.37h-18.3v-29.37L8.95,130.35z"/>
+               <path class="st5" d="M78.44,130.35h18.53v45.7c0,2.14,0.69,3.83,2.09,5.08c1.39,1.25,3.26,1.87,5.6,1.87
+                   c2.42,0,4.34-0.66,5.75-1.99c1.41-1.33,2.12-3.16,2.12-5.49v-45.17h18.42v42.59c0,5.8-0.93,10.45-2.8,13.95
+                   c-1.87,3.5-4.62,6.07-8.25,7.71s-8.71,2.46-15.23,2.46c-9.62,0-16.39-2.01-20.32-6.03c-3.93-4.02-5.9-10.81-5.9-20.37V130.35z"/>
+               <path class="st6" d="M155.86,130.35h18.06v46.67c0,6-1.92,10.83-5.75,14.51c-3.84,3.68-8.91,5.52-15.23,5.52
+                   c-3.97,0-7.89-0.89-11.74-2.67V179.6c3.61,1.94,6.22,2.92,7.81,2.92c4.57,0,6.85-2.37,6.85-7.1V130.35z"/>
+               <path class="st7" d="M191.14,130.35h18.06v64.91h-18.06V130.35z"/>
+               <path class="st8" d="M226.84,130.35h18.24l22.94,37.44l-0.65-7v-30.44h18.06v64.91h-18.53l-22.47-36.85l0.48,8.07v28.78h-18.06
+                   V130.35z"/>
+                </svg>
+            </div>
+            <div class="main-btn">
+                <ul>
+                    <li><a href="#section1">HOME</a></li>
+                    <li><a href="#section2">ABOUT</a></li>
+                    <li><a href="#section4">PROJECT</a></li>
+                    <li><a href="#section5">CONTACT</a></li>
+                </ul>
+            </div>
+
+        </header>
+        <main id="main">
+            <section id="section1" >
+                <div class="container">
+                   
+                    <div class="title">
+                        <h1>안녕하세요 프론트엔드 개발자를 꿈꾸는</h1>
+                        <p>박유진 입니다.</p>
+                    </div>
+                    <div class="titleR">
+                        <h2>welcome</h2>
+                    </div>
+                </div>
+              
+            </section>
+            <section id="section2">
+                <div class="container">
+                    <div class="title">
+                        <hr/>
+                        <h2><strong>About me</strong></h2>
+                        <hr/>
+                    </div>
+                    <div class="contents con1">
+                        <div class="gap">
+                            <h3>"왜 프론트엔드 개발자가 되고 싶은가?"</h3>
+                            <p>
+                                끊임없이 도전하고 해결하는것을 좋아하는 저는 
+                                생각했던것을 눈으로 볼 수 있게 바로 결과물로 구현하고 확인 가능한 프론트엔드라는 직업이 매력적으로 느껴졌습니다.
+                                우연히 관심이 생긴 사이트에 들어갔다가 처음 보는 효과를 접한것이 
+                                저를 프론트엔드 개발자로 이끌어 나아갈 수 있는 한발자국 이었습니다. 
+                                새로운것을 항상 즐기며 시류성 시의성에 민감하게 반응하는 개발자가 되고 싶습니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contents con2">
+                        <div class="gap">
+                            <h3>Education</h3>
+                            <p>
+                                신촌 그린컴퓨터 아카데미
+                                <br>
+                                반응형 웹디자인(UIUX) & 웹퍼블리셔 과정 수료
+                                <br>
+                                2021/10/25 - 2022/03/18
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contents con3">
+                        <div class="gap">
+                            <h3>Certificate</h3>
+                            <p>
+                                웹디자인기능사 <br>
+                                GTQ 1급 <br>
+                                컴퓨터활용능력2급 <br>
+                                JLPT 2급<br>
+
+                            </p>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <h3>Skills</h3>
+                            <p>
+                                Front-end <br/>
+                                - HTML, CSS3, JAVASCRIPT, REACT, JQUERY, Vue <br/>
+                                그 외 경험 <br/>
+                                - PHP, MYSQL, NODE 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="section3">
+                <div class="container">
+                    
+                    <h3><strong>Skills</strong></h3>
+                    <ul>
+                        <li>
+                            <h4>html5</h4>
+                            <div class="skill-bar bar1">
+                                <div class="skill">
+                                    <h5>90%</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>css3</h4>
+                            <div class="skill-bar bar2">
+                                <div class="skill">
+                                    <h5>90%</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>JavaScript(ES5/ES6)</h4>
+                            <div class="skill-bar bar3">
+                                <div class="skill">
+                                    <h5>80%</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>React.js</h4>
+                            <div class="skill-bar bar4">
+                                <div class="skill">
+                                    <h5>78%</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Vue.js</h4>
+                            <div class="skill-bar bar5">
+                                <div class="skill">
+                                    <h5>65%</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Node.js</h4>
+                            <div class="skill-bar bar6">
+                                <div class="skill">
+                                    <h5>70%</h5>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <h4>Sass(SCSS)</h4>
+                            <div class="skill-bar bar7">
+                                <div class="skill">
+                                    <h5>75%</h5>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                  
+                </div>
+            </section>
+            <section id="section4">
+                <div class="container">
+                    <div class="title">
+                        <h2><strong>Project</strong></h2>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="contents con1">
+                                <div class="left">
+                                    <h2>Orange <br/> swimm<br/>ing pool</h2>
+                                </div>
+                                <div class="center">
+                                    <div class="content">
+                                        <div class="gap">
+                                            <span>
+                                                <img src="./img/orange_1.png" alt="orange1">
+                                                <img src="./img/orange_2.png" alt="orange2">
+                                                <img src="./img/orange_3.png" alt="orange3">
+                                                <img src="./img/orange_4.png" alt="orange4">
+                                                <img src="./img/orange_5.png" alt="orange5">
+                                        </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="top">
+                                        <div class="explain">
+                                            <h2>
+                                                웹표준성을 준수해 만든 페이지로 서브페이지가 없는 페이지 입니다. <br/> 기존 사이트에 svg, go-top 삽입 등 약간의 변형을 주어 제작한 사이트 이며
+                                                JavaScript를 활용해 화면을 스크롤 하거나 페이지 이동 클릭 버튼을 누를 시 일정 영역에 도달하면 색깔이 달라지는 효과를 주었습니다.
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="skill">
+                                            <h3>사용 기술</h3>
+                                            <div class="img-box">
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUVJREFUSEvVlY0tBUEURs+rAB3oABWgAjpABzpABaiAEqgAHVABJeiAnGTuy2R2Znb3JRtxk80mOz9nvu/eubti4VgtvD9/AngFDjdU9gYc5WtrChYHPAEnGyp4Bk7HFFwDV2nS8UTQS5p3A7h+HTWLSoCW9ULPZwHOgYdMgYA7YK9B2Qb209gF8DimID+RFgmYmviY37WoJnkX8KmFis8KxV2AG322klYh5DnbAb7HLHL8J036AnxqcQ9Y0noeCgZF02oVAfgALlMSbwtKLT+TAe+pauLq53kJTgnwMFFN3Rw4GFUj6CDNthzjlmpNeO17Cxj0Ide1LMrLUotcLCwPT2tT9I4YswB5ZcSmJjtutZaVZTtoEz0FNUCjmNafZwE8nX570rHOagdVmXkZlPTUP1rAfJvUaB9u2o2pgLF9muP/H/AL4pRGGVydm1YAAAAASUVORK5CYII="/>
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVJJREFUSEvFlYFNw0AMRV8ngBHoBJQJChOUDegGZQPoBMAEtBvABNAJChvABmwA+tIZuc7lLokU1VKUKj77+3/b1wkj22Tk/BwF4BE4H8jsE7j1sTkG78B8IMAOuKwBiMFqIMBTFwb3wF0CUMBPBezUFbQGFP9vOYk8wBUgyUomSd7SgU4APuCjwMAa6s83Csox8AGlyq2hS+A5HewEMAP2IfM3sAnfJJ0eL+kFINbFHsj5G5I1xs/5PUBDkbZNjgCapIPKAE3YS3oWCbAzgBKeANZIyfYQWJnetpiS8Sw2rY2BBZk0ucZHgKyMNYAvYJqqUnV2DagA+Xy/egFoYm5SAv2W1q+BvsB0Z9nmbgGN7IG1MfCTYQHqi221kuuK8NbYYjn7AJSWTr5eANL7OmluI9gGIOnETDJaX6qLFpMZmN4yJbOkRWZH+cusad3LPzqDP/UKShlgQ6sSAAAAAElFTkSuQmCC"/>
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAPVJREFUSEvtle2NQVEURZcKKGFUQAkzFaACVMBUYFRgdKAEKqADStABKiArOXciE98u8cNJ3o97887eZ++z816BB1fhwfg8nWCbSdHf4P8VvAmSw2+LzmbtdS36AqrAANgAXWAJlIAfoBLablZg4ycwBdrAKM6SfMS9HFkIVLMAVqFCgrtjuq+gH7YIrD3N3ATiCTwE1rGbGVDMZVEaWPDv2Mcv0LmWwAlNjo9pccnjSJD29IAJUA9Fni9estOVw4I0scmpAQ1AS1JJPo80XUxgsxEU1HLi1h6oSkyS4CpISbqK4Ox34cALRwluATvZ8/R/cnYFO3Y9Nxn2grYRAAAAAElFTkSuQmCC"/>
+                                            </div>
+                                        </div>
+                                        <div class="link">
+                                            <div class="live">
+                                                <button><a href="http://qkrbwls.dothome.co.kr/orange/">See Live</a></button>
+                                            </div>
+                                            <div class="git">
+                                                <button><a href="https://qkrbwls.github.io/orange/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZdJREFUSEu1lYExBVEMRe+vABWgAlSAClABKkAFqAAdUMGnAlSADuiACpgzk+zkZ7L735rZzOzs7puXe5P7kryZJrbZxPhqITiUdCBp2x5ierfnRdLDUJBDBADfSNpYkuWnpAtJj9W+PoIrSZcj5bs1ogW3iuA/4A56J+k8MmSCPUnPtuFJEmQnks5s7cPeW/ZG/3vbc2xrR1GuTICe67bx2gj4XZX0nSSLazFrMDZ9byTgUOcBhOiIvsWyrKeW2UKZkqqnCei+JMqwxSjhtyq4mAFgu0FrnMZY9KdPdnCOBGi8YoivkjjwMRYJOuxI8BvQJiGIEZDN2pjwrcpcgS+fADGDfMi0P93ZYjQXY8Wtq8C+Mv2x86D86M7cAw5EL1B5OZCyTHGiSUiTEiUqL1u6mp5wIoDJmKrjO1onT64i/n1UAESZOUjsagfLkvr6Qv9Uw871LKdjCLUaikuHnfs7CQ1DNj7UohSZoMpy8EZDLmRg+FXOToDmnE85VlquTIjIgmyiMUq47cqbzDe2ELT0Qe+eyQn+AIklVhnz1DvpAAAAAElFTkSuQmCC"/>GitHub</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contents con2">
+                                <div class="left">
+                                    <h2>Star <br/> Bucks</h2>
+                                </div>
+                                <div class="center">
+                                    <div class="content">
+                                        <div class="gap">
+                                            <span>
+                                                <img src="./img/star_1.png" alt="star1">
+                                                <img src="./img/star_2.png" alt="star2">
+                                                <img src="./img/star_3.png" alt="star3">
+                                                <img src="./img/star_4.png" alt="star4">
+                                                <img src="./img/star_5.png" alt="star5">
+                                                <img src="./img/star_6.png" alt="star6">
+                                                <img src="./img/star_7.png" alt="star7">
+                                                <img src="./img/star_8.png" alt="star8">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="top">
+                                        <div class="explain">
+                                            <h2>
+                                                웹표준성을 준수해 제작한 반응형 페이지 입니다.
+                                                오른쪽 이벤트페이지를 클릭하면 php를 이용해 만든 서브페이지로 이동하게됩니다.
+                                               본 페이지는 리액트로도 구성하여 제작하였습니다.
+                                               
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="skill">
+                                            <h3>사용 기술</h3>
+                                            <div class="img-box">
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUVJREFUSEvVlY0tBUEURs+rAB3oABWgAjpABzpABaiAEqgAHVABJeiAnGTuy2R2Znb3JRtxk80mOz9nvu/eubti4VgtvD9/AngFDjdU9gYc5WtrChYHPAEnGyp4Bk7HFFwDV2nS8UTQS5p3A7h+HTWLSoCW9ULPZwHOgYdMgYA7YK9B2Qb209gF8DimID+RFgmYmviY37WoJnkX8KmFis8KxV2AG322klYh5DnbAb7HLHL8J036AnxqcQ9Y0noeCgZF02oVAfgALlMSbwtKLT+TAe+pauLq53kJTgnwMFFN3Rw4GFUj6CDNthzjlmpNeO17Cxj0Ide1LMrLUotcLCwPT2tT9I4YswB5ZcSmJjtutZaVZTtoEz0FNUCjmNafZwE8nX570rHOagdVmXkZlPTUP1rAfJvUaB9u2o2pgLF9muP/H/AL4pRGGVydm1YAAAAASUVORK5CYII="/>
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVJJREFUSEvFlYFNw0AMRV8ngBHoBJQJChOUDegGZQPoBMAEtBvABNAJChvABmwA+tIZuc7lLokU1VKUKj77+3/b1wkj22Tk/BwF4BE4H8jsE7j1sTkG78B8IMAOuKwBiMFqIMBTFwb3wF0CUMBPBezUFbQGFP9vOYk8wBUgyUomSd7SgU4APuCjwMAa6s83Csox8AGlyq2hS+A5HewEMAP2IfM3sAnfJJ0eL+kFINbFHsj5G5I1xs/5PUBDkbZNjgCapIPKAE3YS3oWCbAzgBKeANZIyfYQWJnetpiS8Sw2rY2BBZk0ucZHgKyMNYAvYJqqUnV2DagA+Xy/egFoYm5SAv2W1q+BvsB0Z9nmbgGN7IG1MfCTYQHqi221kuuK8NbYYjn7AJSWTr5eANL7OmluI9gGIOnETDJaX6qLFpMZmN4yJbOkRWZH+cusad3LPzqDP/UKShlgQ6sSAAAAAElFTkSuQmCC"/>
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAPVJREFUSEvtle2NQVEURZcKKGFUQAkzFaACVMBUYFRgdKAEKqADStABKiArOXciE98u8cNJ3o97887eZ++z816BB1fhwfg8nWCbSdHf4P8VvAmSw2+LzmbtdS36AqrAANgAXWAJlIAfoBLablZg4ycwBdrAKM6SfMS9HFkIVLMAVqFCgrtjuq+gH7YIrD3N3ATiCTwE1rGbGVDMZVEaWPDv2Mcv0LmWwAlNjo9pccnjSJD29IAJUA9Fni9estOVw4I0scmpAQ1AS1JJPo80XUxgsxEU1HLi1h6oSkyS4CpISbqK4Ox34cALRwluATvZ8/R/cnYFO3Y9Nxn2grYRAAAAAElFTkSuQmCC"/>
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAiNJREFUSEu11TusTHEQBvDfJaGkFJGQeEShUEg0JAqhEo9WQ4joEAWVRzQUXp0IoaBReJQShYQGDYlGkKhEiY4C+Tazm3PP7p5rL3eSk91z/mfmm/m+mTlT5tim5ji+LoDFOF0JPMLTVjJbsLOencXXUcl2ASTgbXzCUfzG/gpyi15yV7AC+xDAIRsHEKcEbzolyPECulTn/YBJZteoKsYBrK/smgCh7FVlvqEVLAATVZDM2k4PkSuWbHM1K5gY4DMuFMd7MA8fKuIq/ML90ugElv6NBqHhSIm2CPeqknTJxgYtee9FdVkq2YbviPhXm/Q1NQjvETY0pDtScpwj+JkCOllZnq/zdFfaMz6hNPfxSUO8zrtNgDwYHFSgUPIFm3ADB+r5TRzEcyxBKOtbP9H8DgH0HjYsAKFiL54VUI4TeDPuFnVNgJxndlL5NIDQsBzHquy8cAfLEOCtuF7gh/CkaJmPHRU02lzGm6J5aFWEogA9wEK8rIABCL9Ni06hNUHX4Ad2l3+07Nm4QYtQ1/ATH7EOj/G+/FZjO95iJRbgcGNOBol07aIBj6XBxRI2zhE8ayMaTOO8VWXnNm1Pcqo6V7voVCvbiVdFZiBatHfRuwJY+z92UQQMQAYpv+mOTGksgvdnJiKngnaLd4qcwwTofwe+1f/edFawdFHWSQCySgad09Rhpk9mnGMjv1YVvOu8U+R2Q8zqfqYKZhV0Eor+GeAPysh0GQodk7sAAAAASUVORK5CYII="/>
+                                            </div>
+                                        </div>
+                                        <div class="link">
+                                            <div class="live">
+                                                <button><a href="http://qkrbwls.dothome.co.kr/starbucks_sub/">See Live</a></button>
+                                            </div>
+                                            <div class="git">
+                                                <button><a href="https://qkrbwls.github.io/starbucks_sub/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZdJREFUSEu1lYExBVEMRe+vABWgAlSAClABKkAFqAAdUMGnAlSADuiACpgzk+zkZ7L735rZzOzs7puXe5P7kryZJrbZxPhqITiUdCBp2x5ierfnRdLDUJBDBADfSNpYkuWnpAtJj9W+PoIrSZcj5bs1ogW3iuA/4A56J+k8MmSCPUnPtuFJEmQnks5s7cPeW/ZG/3vbc2xrR1GuTICe67bx2gj4XZX0nSSLazFrMDZ9byTgUOcBhOiIvsWyrKeW2UKZkqqnCei+JMqwxSjhtyq4mAFgu0FrnMZY9KdPdnCOBGi8YoivkjjwMRYJOuxI8BvQJiGIEZDN2pjwrcpcgS+fADGDfMi0P93ZYjQXY8Wtq8C+Mv2x86D86M7cAw5EL1B5OZCyTHGiSUiTEiUqL1u6mp5wIoDJmKrjO1onT64i/n1UAESZOUjsagfLkvr6Qv9Uw871LKdjCLUaikuHnfs7CQ1DNj7UohSZoMpy8EZDLmRg+FXOToDmnE85VlquTIjIgmyiMUq47cqbzDe2ELT0Qe+eyQn+AIklVhnz1DvpAAAAAElFTkSuQmCC"/>Sub</a></button>
+                                                <button><a href="https://qkrbwls.github.io/react_cra_starbucks/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZdJREFUSEu1lYExBVEMRe+vABWgAlSAClABKkAFqAAdUMGnAlSADuiACpgzk+zkZ7L735rZzOzs7puXe5P7kryZJrbZxPhqITiUdCBp2x5ierfnRdLDUJBDBADfSNpYkuWnpAtJj9W+PoIrSZcj5bs1ogW3iuA/4A56J+k8MmSCPUnPtuFJEmQnks5s7cPeW/ZG/3vbc2xrR1GuTICe67bx2gj4XZX0nSSLazFrMDZ9byTgUOcBhOiIvsWyrKeW2UKZkqqnCei+JMqwxSjhtyq4mAFgu0FrnMZY9KdPdnCOBGi8YoivkjjwMRYJOuxI8BvQJiGIEZDN2pjwrcpcgS+fADGDfMi0P93ZYjQXY8Wtq8C+Mv2x86D86M7cAw5EL1B5OZCyTHGiSUiTEiUqL1u6mp5wIoDJmKrjO1onT64i/n1UAESZOUjsagfLkvr6Qv9Uw871LKdjCLUaikuHnfs7CQ1DNj7UohSZoMpy8EZDLmRg+FXOToDmnE85VlquTIjIgmyiMUq47cqbzDe2ELT0Qe+eyQn+AIklVhnz1DvpAAAAAElFTkSuQmCC"/>React</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contents con3">
+                                <div class="left">
+                                    <h2>Inte<br/>rective</h2>
+                                </div>
+                                <div class="center">
+                                    <div class="content">
+                                        <div class="gap">
+                                            <span><img src="./img/in_1.png" alt="Contentimg"></span>
+                                            <span><img src="./img/in_2.png" alt="Contentimg"></span>
+                                            <span><img src="./img/in_3.png" alt="Contentimg"></span>
+                                            <span><img src="./img/in_4.png" alt="Contentimg"></span>
+                                            <span><img src="./img/in_5.png" alt="Contentimg"></span>
+                                            <span><img src="./img/in_6.png" alt="Contentimg"></span>
+                                            <span><img src="./img/in_7.png" alt="Contentimg"></span>
+                                            <span><img src="./img/in_8.png" alt="Contentimg"></span>
+                                            <span><img src="./img/in_9.png" alt="Contentimg"></span>
+                                            <span><img src="./img/in_10.png" alt="Contentimg"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="top">
+                                        <div class="explain">
+                                            <h2>반응형으로 제작된 페이지 입니다. 웹 입력폼에서 전송한 데이터 
+                                                출력 부분을 추가해 php로 파일영역을 분리하였으며
+                                                내부의 json파일과 MySQL을 활용하여 제작하였습니다. 
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="skill">
+                                            <h3>사용 기술</h3>
+                                            <div class="img-box">
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUVJREFUSEvVlY0tBUEURs+rAB3oABWgAjpABzpABaiAEqgAHVABJeiAnGTuy2R2Znb3JRtxk80mOz9nvu/eubti4VgtvD9/AngFDjdU9gYc5WtrChYHPAEnGyp4Bk7HFFwDV2nS8UTQS5p3A7h+HTWLSoCW9ULPZwHOgYdMgYA7YK9B2Qb209gF8DimID+RFgmYmviY37WoJnkX8KmFis8KxV2AG322klYh5DnbAb7HLHL8J036AnxqcQ9Y0noeCgZF02oVAfgALlMSbwtKLT+TAe+pauLq53kJTgnwMFFN3Rw4GFUj6CDNthzjlmpNeO17Cxj0Ide1LMrLUotcLCwPT2tT9I4YswB5ZcSmJjtutZaVZTtoEz0FNUCjmNafZwE8nX570rHOagdVmXkZlPTUP1rAfJvUaB9u2o2pgLF9muP/H/AL4pRGGVydm1YAAAAASUVORK5CYII="/>
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVJJREFUSEvFlYFNw0AMRV8ngBHoBJQJChOUDegGZQPoBMAEtBvABNAJChvABmwA+tIZuc7lLokU1VKUKj77+3/b1wkj22Tk/BwF4BE4H8jsE7j1sTkG78B8IMAOuKwBiMFqIMBTFwb3wF0CUMBPBezUFbQGFP9vOYk8wBUgyUomSd7SgU4APuCjwMAa6s83Csox8AGlyq2hS+A5HewEMAP2IfM3sAnfJJ0eL+kFINbFHsj5G5I1xs/5PUBDkbZNjgCapIPKAE3YS3oWCbAzgBKeANZIyfYQWJnetpiS8Sw2rY2BBZk0ucZHgKyMNYAvYJqqUnV2DagA+Xy/egFoYm5SAv2W1q+BvsB0Z9nmbgGN7IG1MfCTYQHqi221kuuK8NbYYjn7AJSWTr5eANL7OmluI9gGIOnETDJaX6qLFpMZmN4yJbOkRWZH+cusad3LPzqDP/UKShlgQ6sSAAAAAElFTkSuQmCC"/>
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAPVJREFUSEvtle2NQVEURZcKKGFUQAkzFaACVMBUYFRgdKAEKqADStABKiArOXciE98u8cNJ3o97887eZ++z816BB1fhwfg8nWCbSdHf4P8VvAmSw2+LzmbtdS36AqrAANgAXWAJlIAfoBLablZg4ycwBdrAKM6SfMS9HFkIVLMAVqFCgrtjuq+gH7YIrD3N3ATiCTwE1rGbGVDMZVEaWPDv2Mcv0LmWwAlNjo9pccnjSJD29IAJUA9Fni9estOVw4I0scmpAQ1AS1JJPo80XUxgsxEU1HLi1h6oSkyS4CpISbqK4Ox34cALRwluATvZ8/R/cnYFO3Y9Nxn2grYRAAAAAElFTkSuQmCC"/>
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAdBJREFUSEu1lesxBEEUhb+NABEgAkSACBABIkAEiAARsBEgAkSACBABIqC+re6tOz0zPbs/tqumah7d55x77mNGLHiNFozPLARHwDawmS41vaXrAXisiawR7ANXwNpAlJ/AGSBZa/URXAMnPcDvwDPwk74b2R7gGYkaq4ugD3wMXAAq3gGWEpKERvkE3ACnkaEk0Jb7QsQLYB5UfJ7ul8Me328BdylXB9GukkB1q+HwZVKtKsEjcNSxnkA3UoQ+T1YkUOVtOKUlvlPZYSXR2mKCtSivaRSRIAJ9pZLMyvvwjdCcvRbVlsU1IrC2DdGl7yYyvlPAbwKyilTtHku5tM5z5qVB8FckTh9VF+3xYC5PwWtr4k60KBL4TcXWtWpzZAOY7RaIBNGOvFPw41RJtUSXxPaGDdiIoK9atGQ3eZ/tsbpqhJ1JLstUASY1d6bRfCSpijH6PpLOMvVsbDTBTaQEAq0A38EL679rXlni0wFZGxUmWEtsPsHMUW5Ehfht4nOxqqPCvXnYuVEQ1WiPnTo0ugeHXRYjiTnJTeR93xzKZ1rgZRWVoTpZJYrDr6sP9Nw8zfXDiUASeel3bjjr3JwI2gmcAWb5J8/Tva29Cyf4BxIoZhntbxp9AAAAAElFTkSuQmCC"/>
+                                            </div>
+                                        </div>
+                                        <div class="link">
+                                            <div class="live">
+                                                <button><a href="http://qkrbwls.dothome.co.kr/interactive_POFO/">See Live</a></button>
+                                            </div>
+                                            <div class="git">
+                                                <button><a href="https://github.com/qkrbwls/Interactive_POFO.git"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZdJREFUSEu1lYExBVEMRe+vABWgAlSAClABKkAFqAAdUMGnAlSADuiACpgzk+zkZ7L735rZzOzs7puXe5P7kryZJrbZxPhqITiUdCBp2x5ierfnRdLDUJBDBADfSNpYkuWnpAtJj9W+PoIrSZcj5bs1ogW3iuA/4A56J+k8MmSCPUnPtuFJEmQnks5s7cPeW/ZG/3vbc2xrR1GuTICe67bx2gj4XZX0nSSLazFrMDZ9byTgUOcBhOiIvsWyrKeW2UKZkqqnCei+JMqwxSjhtyq4mAFgu0FrnMZY9KdPdnCOBGi8YoivkjjwMRYJOuxI8BvQJiGIEZDN2pjwrcpcgS+fADGDfMi0P93ZYjQXY8Wtq8C+Mv2x86D86M7cAw5EL1B5OZCyTHGiSUiTEiUqL1u6mp5wIoDJmKrjO1onT64i/n1UAESZOUjsagfLkvr6Qv9Uw871LKdjCLUaikuHnfs7CQ1DNj7UohSZoMpy8EZDLmRg+FXOToDmnE85VlquTIjIgmyiMUq47cqbzDe2ELT0Qe+eyQn+AIklVhnz1DvpAAAAAElFTkSuQmCC"/>GitHub</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="contents con4">
+                                <div class="left">
+                                    <h2>Daily <br/> To-do <br/> List</h2>
+                                </div>
+                                <div class="center">
+                                    <div class="content">
+                                        <div class="gap">
+                                            <span>
+                                                <img src="./img/todo.png" alt="todo1">
+                                                <img src="./img/todo_1.png" alt="todo2">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="top">
+                                        <div class="explain">
+                                            <h2>
+                                                리액트로 제작한 데일리 투두 리스트 입니다. <br/>
+                                                빈 칸에 내용 입력시 제일 아래 칸으로 차례대로 출력하게 됩니다.
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="skill">
+                                            <h3>사용 기술</h3>
+                                            <div class="img-box">
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUVJREFUSEvVlY0tBUEURs+rAB3oABWgAjpABzpABaiAEqgAHVABJeiAnGTuy2R2Znb3JRtxk80mOz9nvu/eubti4VgtvD9/AngFDjdU9gYc5WtrChYHPAEnGyp4Bk7HFFwDV2nS8UTQS5p3A7h+HTWLSoCW9ULPZwHOgYdMgYA7YK9B2Qb209gF8DimID+RFgmYmviY37WoJnkX8KmFis8KxV2AG322klYh5DnbAb7HLHL8J036AnxqcQ9Y0noeCgZF02oVAfgALlMSbwtKLT+TAe+pauLq53kJTgnwMFFN3Rw4GFUj6CDNthzjlmpNeO17Cxj0Ide1LMrLUotcLCwPT2tT9I4YswB5ZcSmJjtutZaVZTtoEz0FNUCjmNafZwE8nX570rHOagdVmXkZlPTUP1rAfJvUaB9u2o2pgLF9muP/H/AL4pRGGVydm1YAAAAASUVORK5CYII="/>
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVJJREFUSEvFlYFNw0AMRV8ngBHoBJQJChOUDegGZQPoBMAEtBvABNAJChvABmwA+tIZuc7lLokU1VKUKj77+3/b1wkj22Tk/BwF4BE4H8jsE7j1sTkG78B8IMAOuKwBiMFqIMBTFwb3wF0CUMBPBezUFbQGFP9vOYk8wBUgyUomSd7SgU4APuCjwMAa6s83Csox8AGlyq2hS+A5HewEMAP2IfM3sAnfJJ0eL+kFINbFHsj5G5I1xs/5PUBDkbZNjgCapIPKAE3YS3oWCbAzgBKeANZIyfYQWJnetpiS8Sw2rY2BBZk0ucZHgKyMNYAvYJqqUnV2DagA+Xy/egFoYm5SAv2W1q+BvsB0Z9nmbgGN7IG1MfCTYQHqi221kuuK8NbYYjn7AJSWTr5eANL7OmluI9gGIOnETDJaX6qLFpMZmN4yJbOkRWZH+cusad3LPzqDP/UKShlgQ6sSAAAAAElFTkSuQmCC"/>
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAPVJREFUSEvtle2NQVEURZcKKGFUQAkzFaACVMBUYFRgdKAEKqADStABKiArOXciE98u8cNJ3o97887eZ++z816BB1fhwfg8nWCbSdHf4P8VvAmSw2+LzmbtdS36AqrAANgAXWAJlIAfoBLablZg4ycwBdrAKM6SfMS9HFkIVLMAVqFCgrtjuq+gH7YIrD3N3ATiCTwE1rGbGVDMZVEaWPDv2Mcv0LmWwAlNjo9pccnjSJD29IAJUA9Fni9estOVw4I0scmpAQ1AS1JJPo80XUxgsxEU1HLi1h6oSkyS4CpISbqK4Ox34cALRwluATvZ8/R/cnYFO3Y9Nxn2grYRAAAAAElFTkSuQmCC"/>
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAiNJREFUSEu11TusTHEQBvDfJaGkFJGQeEShUEg0JAqhEo9WQ4joEAWVRzQUXp0IoaBReJQShYQGDYlGkKhEiY4C+Tazm3PP7p5rL3eSk91z/mfmm/m+mTlT5tim5ji+LoDFOF0JPMLTVjJbsLOencXXUcl2ASTgbXzCUfzG/gpyi15yV7AC+xDAIRsHEKcEbzolyPECulTn/YBJZteoKsYBrK/smgCh7FVlvqEVLAATVZDM2k4PkSuWbHM1K5gY4DMuFMd7MA8fKuIq/ML90ugElv6NBqHhSIm2CPeqknTJxgYtee9FdVkq2YbviPhXm/Q1NQjvETY0pDtScpwj+JkCOllZnq/zdFfaMz6hNPfxSUO8zrtNgDwYHFSgUPIFm3ADB+r5TRzEcyxBKOtbP9H8DgH0HjYsAKFiL54VUI4TeDPuFnVNgJxndlL5NIDQsBzHquy8cAfLEOCtuF7gh/CkaJmPHRU02lzGm6J5aFWEogA9wEK8rIABCL9Ni06hNUHX4Ad2l3+07Nm4QYtQ1/ATH7EOj/G+/FZjO95iJRbgcGNOBol07aIBj6XBxRI2zhE8ayMaTOO8VWXnNm1Pcqo6V7voVCvbiVdFZiBatHfRuwJY+z92UQQMQAYpv+mOTGksgvdnJiKngnaLd4qcwwTofwe+1f/edFawdFHWSQCySgad09Rhpk9mnGMjv1YVvOu8U+R2Q8zqfqYKZhV0Eor+GeAPysh0GQodk7sAAAAASUVORK5CYII="/>
+                                            </div>
+                                        </div>
+                                        <div class="link">
+                                            <div class="live">
+                                                <button><a href="http://qkrbwls.dothome.co.kr/TodoList/">See Live</a></button>
+                                            </div>
+                                            <div class="git">
+                                                <button><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZdJREFUSEu1lYExBVEMRe+vABWgAlSAClABKkAFqAAdUMGnAlSADuiACpgzk+zkZ7L735rZzOzs7puXe5P7kryZJrbZxPhqITiUdCBp2x5ierfnRdLDUJBDBADfSNpYkuWnpAtJj9W+PoIrSZcj5bs1ogW3iuA/4A56J+k8MmSCPUnPtuFJEmQnks5s7cPeW/ZG/3vbc2xrR1GuTICe67bx2gj4XZX0nSSLazFrMDZ9byTgUOcBhOiIvsWyrKeW2UKZkqqnCei+JMqwxSjhtyq4mAFgu0FrnMZY9KdPdnCOBGi8YoivkjjwMRYJOuxI8BvQJiGIEZDN2pjwrcpcgS+fADGDfMi0P93ZYjQXY8Wtq8C+Mv2x86D86M7cAw5EL1B5OZCyTHGiSUiTEiUqL1u6mp5wIoDJmKrjO1onT64i/n1UAESZOUjsagfLkvr6Qv9Uw871LKdjCLUaikuHnfs7CQ1DNj7UohSZoMpy8EZDLmRg+FXOToDmnE85VlquTIjIgmyiMUq47cqbzDe2ELT0Qe+eyQn+AIklVhnz1DvpAAAAAElFTkSuQmCC"/>GitHub</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- vue 추후 수정 예정 -->
+                        <!-- <li>
+                            <div class="contents con5">
+                                <div class="left">
+                                    <h2>2021 <br/> 2022 <br/>Calender</h2>
+                                </div>
+                                <div class="center">
+                                    <div class="content">
+                                        <div class="gap">
+                                            <span>
+                                                <img src="./img/todo.png" alt="todo1">
+                                                <img src="./img/todo_1.png" alt="todo2">
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="right">
+                                    <div class="top">
+                                        <div class="explain">
+                                            <h2>
+                                                Vue와 scss를 이용해 제작한  <br/>
+                                                2021년, 2022년 달력 페이지 입니다.
+                                                
+                                                
+                                            </h2>
+                                        </div>
+                                    </div>
+                                    <div class="bottom">
+                                        <div class="skill">
+                                            <h3>사용 기술</h3>
+                                            <div class="img-box">
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUVJREFUSEvVlY0tBUEURs+rAB3oABWgAjpABzpABaiAEqgAHVABJeiAnGTuy2R2Znb3JRtxk80mOz9nvu/eubti4VgtvD9/AngFDjdU9gYc5WtrChYHPAEnGyp4Bk7HFFwDV2nS8UTQS5p3A7h+HTWLSoCW9ULPZwHOgYdMgYA7YK9B2Qb209gF8DimID+RFgmYmviY37WoJnkX8KmFis8KxV2AG322klYh5DnbAb7HLHL8J036AnxqcQ9Y0noeCgZF02oVAfgALlMSbwtKLT+TAe+pauLq53kJTgnwMFFN3Rw4GFUj6CDNthzjlmpNeO17Cxj0Ide1LMrLUotcLCwPT2tT9I4YswB5ZcSmJjtutZaVZTtoEz0FNUCjmNafZwE8nX570rHOagdVmXkZlPTUP1rAfJvUaB9u2o2pgLF9muP/H/AL4pRGGVydm1YAAAAASUVORK5CYII="/>
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAVJJREFUSEvFlYFNw0AMRV8ngBHoBJQJChOUDegGZQPoBMAEtBvABNAJChvABmwA+tIZuc7lLokU1VKUKj77+3/b1wkj22Tk/BwF4BE4H8jsE7j1sTkG78B8IMAOuKwBiMFqIMBTFwb3wF0CUMBPBezUFbQGFP9vOYk8wBUgyUomSd7SgU4APuCjwMAa6s83Csox8AGlyq2hS+A5HewEMAP2IfM3sAnfJJ0eL+kFINbFHsj5G5I1xs/5PUBDkbZNjgCapIPKAE3YS3oWCbAzgBKeANZIyfYQWJnetpiS8Sw2rY2BBZk0ucZHgKyMNYAvYJqqUnV2DagA+Xy/egFoYm5SAv2W1q+BvsB0Z9nmbgGN7IG1MfCTYQHqi221kuuK8NbYYjn7AJSWTr5eANL7OmluI9gGIOnETDJaX6qLFpMZmN4yJbOkRWZH+cusad3LPzqDP/UKShlgQ6sSAAAAAElFTkSuQmCC"/>
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAPVJREFUSEvtle2NQVEURZcKKGFUQAkzFaACVMBUYFRgdKAEKqADStABKiArOXciE98u8cNJ3o97887eZ++z816BB1fhwfg8nWCbSdHf4P8VvAmSw2+LzmbtdS36AqrAANgAXWAJlIAfoBLablZg4ycwBdrAKM6SfMS9HFkIVLMAVqFCgrtjuq+gH7YIrD3N3ATiCTwE1rGbGVDMZVEaWPDv2Mcv0LmWwAlNjo9pccnjSJD29IAJUA9Fni9estOVw4I0scmpAQ1AS1JJPo80XUxgsxEU1HLi1h6oSkyS4CpISbqK4Ox34cALRwluATvZ8/R/cnYFO3Y9Nxn2grYRAAAAAElFTkSuQmCC"/>
+                                                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAdBJREFUSEu1lesxBEEUhb+NABEgAkSACBABIkAEiAARsBEgAkSACBABIqC+re6tOz0zPbs/tqumah7d55x77mNGLHiNFozPLARHwDawmS41vaXrAXisiawR7ANXwNpAlJ/AGSBZa/URXAMnPcDvwDPwk74b2R7gGYkaq4ugD3wMXAAq3gGWEpKERvkE3ACnkaEk0Jb7QsQLYB5UfJ7ul8Me328BdylXB9GukkB1q+HwZVKtKsEjcNSxnkA3UoQ+T1YkUOVtOKUlvlPZYSXR2mKCtSivaRSRIAJ9pZLMyvvwjdCcvRbVlsU1IrC2DdGl7yYyvlPAbwKyilTtHku5tM5z5qVB8FckTh9VF+3xYC5PwWtr4k60KBL4TcXWtWpzZAOY7RaIBNGOvFPw41RJtUSXxPaGDdiIoK9atGQ3eZ/tsbpqhJ1JLstUASY1d6bRfCSpijH6PpLOMvVsbDTBTaQEAq0A38EL679rXlni0wFZGxUmWEtsPsHMUW5Ehfht4nOxqqPCvXnYuVEQ1WiPnTo0ugeHXRYjiTnJTeR93xzKZ1rgZRWVoTpZJYrDr6sP9Nw8zfXDiUASeel3bjjr3JwI2gmcAWb5J8/Tva29Cyf4BxIoZhntbxp9AAAAAElFTkSuQmCC"/>
+                                            </div>
+                                        </div>
+                                        <div class="link">
+                                            <div class="live">
+                                                <button><a href="http://qkrbwls.dothome.co.kr/TodoList/">See Live</a></button>
+                                            </div>
+                                            <div class="git">
+                                                <button><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAZdJREFUSEu1lYExBVEMRe+vABWgAlSAClABKkAFqAAdUMGnAlSADuiACpgzk+zkZ7L735rZzOzs7puXe5P7kryZJrbZxPhqITiUdCBp2x5ierfnRdLDUJBDBADfSNpYkuWnpAtJj9W+PoIrSZcj5bs1ogW3iuA/4A56J+k8MmSCPUnPtuFJEmQnks5s7cPeW/ZG/3vbc2xrR1GuTICe67bx2gj4XZX0nSSLazFrMDZ9byTgUOcBhOiIvsWyrKeW2UKZkqqnCei+JMqwxSjhtyq4mAFgu0FrnMZY9KdPdnCOBGi8YoivkjjwMRYJOuxI8BvQJiGIEZDN2pjwrcpcgS+fADGDfMi0P93ZYjQXY8Wtq8C+Mv2x86D86M7cAw5EL1B5OZCyTHGiSUiTEiUqL1u6mp5wIoDJmKrjO1onT64i/n1UAESZOUjsagfLkvr6Qv9Uw871LKdjCLUaikuHnfs7CQ1DNj7UohSZoMpy8EZDLmRg+FXOToDmnE85VlquTIjIgmyiMUq47cqbzDe2ELT0Qe+eyQn+AIklVhnz1DvpAAAAAElFTkSuQmCC"/>GitHub</a></button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li> -->
+                    </ul>
+                </div>
+                
+            </section>
+            <section id="section5">
+                <div class="container">
+                    <div class="gap">
+                        <div class="title">
+                            <h2>Contact</h2>
+                        </div>
+                        <ul class="content">
+                            <li class="img-box img1">
+                                <div class="front-face"><img src="./img/life.jpg" alt="lifeImg"></div>
+                                <div class="back-face">
+                                    <div class="text-box">
+                                        <div class="text-gap">
+                                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAR1JREFUSEvdleFNw0AMhb9MABsAG8AEwAawAZ2gMAl0ArpB2QCYAEaADdoJQB+ypVNIyjVRhFT/SZSz37OffU7DxNZMjM9+EVwAj8DxSNk+gBnwIk4pkQdHI8EzXKyTNsFXnJ4B7wOJToG3iP1JvqwgCdZR4tOOJFch8eFfBIn7ANxVkug7b/n2ViDofTjbqGvAqrrMbFeAA6KVsb0EHqil4AcBftnRF32eAUk2QWLvUuqtBGZjoH04j+xugUXxnlW+AuqfVVYTlL1IfZfx8SaeEkpc2s4EBpuh4EqmKYkkXZM2iEBQNS8r6LsrgwkqJ7a+ybWAbb//q8AxyyYOzT7jPnMrl7vI22gTx25UwZ2wX+t6bNad8fv1y5xEom9+ED0ZymZNKwAAAABJRU5ErkJggg=="/>
+                                            <h2>E-Mail</h2>
+                                            <p>qquz22y@gmail.com</p>
+
+                                            <hr/> <h3>ARCHIVING</h3>
+                                            
+                                            <h4>GitHub</h4>
+                                            <p><a href="#"><img src="./img/github-logo-24.png" alt="gitLogo"></a></p>
+                                            <h4>Notion</h4>
+                                            <p><a href="https://www.notion.so/f1812fdcff9448dc9ef3d667429258d3?v=ac1ce764a6d0421ebb050cbedb476672"><img src="./img/edit-regular-24.png" alt="Note"> UIUX Notion.Site</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="img-box img2">
+                                <div class="front-face"><img src="./img/light.jpg" alt="lightImg"></div>
+                                <div class="back-face">
+                                    <div class="text-box">
+                                        <div class="text-gap">
+                                            <h5>그 외 다른 작업물</h5>
+                                            <div class="else">
+                                                <p><a href="./2021.html">2021Calender</a></p>
+                                                <p><a href="./2022.html">2022Calender</a></p>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+              
+        </main>
+        <footer id="footer">
+            <div class="container">
+                <h2>PORTFOLIO</h2>
+                <hr>
+                <p>&copy;2022.ParkYuJin All Rights Reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="./js/port.js"></script>
+</body>
+</html>
