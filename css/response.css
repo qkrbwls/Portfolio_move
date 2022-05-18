@@ -33,6 +33,8 @@
     #wrap #main #section1 .container .title p {font-size: 40px;}
     #wrap #main #section1 .container .titleR {bottom: -150px;right: 10.10%;}
     #wrap #main #section1 .container .titleR h2 {font-size: 80px;}
+    #wrap #main #section2 .container .contents.con1 .gap p {display: block;height: 85%;}
+    #wrap #main #section2 .container .contents.con2 .gap p {display: block;height: 85%;}
 }
 
 @media all and (max-width:817px){
@@ -133,26 +135,26 @@
 }
 
 @media all and (max-width:535px){
-    #wrap #main #section2 .container {height:1600px;}
+    #wrap #main #section2 .container {height:1700px;}
     #wrap #main #section2 .container .contents.con1 {height: 450px;}
-    #wrap #main #section2 .container .contents.con2 {height: 400px;}
-    #wrap #main #section2 .container .contents.con3 {height: 520px;}
-}
+    #wrap #main #section2 .container .contents.con2 {height: 450px;}
+    #wrap #main #section2 .container .contents.con3 {height: 500px;}
+    #wrap #main #section2 .container .contents .gap h3 {padding: 3.738%;font-size: 22px;}
+    #wrap #main #section2 .container .contents .gap p {padding: 3.738%;font-size: 18px;line-height: 140%;}
+    }
 
 @media all and (max-width:474px){
     #wrap #header .main-btn ul li {padding: 3% 0;}
-    #wrap #main #section2 .container {height:1700px;}
-    #wrap #main #section2 .container .contents.con1 {height: 500px;}
-    #wrap #main #section2 .container .contents.con2 {height: 450px;}
+
+    #wrap #main #section2 .container .contents {text-align: center;}
+    #wrap #main #section2 .container .contents .gap h3 {padding: 4.219%;font-size: 20px;}
+    #wrap #main #section2 .container .contents .gap p {padding: 5.219%;line-height: 150%;}
 }
 
-@media all and (max-width:410px){
+@media all and (max-width:415px){
     #wrap #header .logo {width: 45%;padding: 5.195% 1% 0 1%;}
     #wrap #header .logo #logoSvg {padding: 7.220% 1% 0 1%;}
-    #wrap #header .main-btn {padding:5% 0;text-align: center;}
-    #wrap #header .main-btn ul {flex-flow: row wrap;}
-    #wrap #header .main-btn ul li {width: 50%;}
-    #wrap #header .main-btn ul li a {font-size: 15px;line-height: 250%;}
+    #wrap #header .main-btn ul li a {font-size: 18px;}
     #wrap #main #section1 {height: 70vh;}
     #wrap #main #section1 .container .title {padding: 15.667% 6.410% 0 9.410%;}
     #wrap #main #section1 .container .title h1 {font-size: 30px;}
@@ -160,8 +162,8 @@
     #wrap #main #section1 .container .titleR {bottom: -70%;right: 14%;}
     #wrap #main #section1 .container .titleR h2 {font-size: 60px;}
 
-    #wrap #main #section2 .container .contents .gap h3 {font-size: 18px;padding: 2%;}
-    #wrap #main #section2 .container .contents .gap p {font-size: 15px;}
+    #wrap #main #section2 .container .contents .gap h3 {font-size: 16px;padding: 3%;}
+    #wrap #main #section2 .container .contents .gap p {font-size: 15px;padding: 3%;}
     #wrap #main #section2 .container {height:1400px;}
     #wrap #main #section2 .container .contents.con1 {height: 350px;}
     #wrap #main #section2 .container .contents.con2 {height: 350px;}
