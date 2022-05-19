@@ -49,7 +49,6 @@
 @media all and (max-width:768px){
     #wrap #main #section2 .container {height:1500px;}
     #wrap #main #section2 .container .contents.con3 .gap {display: block;}
-    #wrap #main #section2 .container .contents.con2 {height: 350px;}
     #wrap #main #section2 .container .contents.con3 {height: 540px;}
 
     #wrap #main #section4 .container ul li .contents .left {width: 8%;}
@@ -81,7 +80,9 @@
 }
 
 @media all and (max-width:700px){
+    #wrap #main #section2 .container {height:1600px;}
     #wrap #main #section2 .container .contents.con1 {height: 400px;}
+    #wrap #main #section2 .container .contents.con2 {height: 400px;}
     #wrap #main #section2 .container .contents.con3 {height: 520px;}
     
     #wrap #main #section3 {padding: 25% 0;}
@@ -104,10 +105,10 @@
     #wrap #main #section4 .container ul li .contents .right .bottom .img-box img {padding: 2%;}
     #wrap #main #section4 .container ul li .contents .right .bottom .link {padding: 3%;display: block;text-align: right;}
     #wrap #main #section4 .container ul li .contents .right .bottom .link .live {padding: 0 5%;}
-    #wrap #main #section4 .container ul li .contents .right .bottom .link .live button {width: 110px;line-height: 180%;padding: 5%;}
+    #wrap #main #section4 .container ul li .contents .right .bottom .link .live button {width: 130px;line-height: 180%;padding: 5%;}
     #wrap #main #section4 .container ul li .contents .right .bottom .link .live button a {font-size: 15px;}
     #wrap #main #section4 .container ul li .contents .right .bottom .link .git {padding: 5%;}
-    #wrap #main #section4 .container ul li .contents .right .bottom .link .git button {width: 110px;line-height: 180%;padding: 5%;}
+    #wrap #main #section4 .container ul li .contents .right .bottom .link .git button {width: 130px;line-height: 180%;padding: 5%;}
     #wrap #main #section4 .container ul li .contents .right .bottom .link .git button a {font-size: 15px;}
     #wrap #main #section4 .container ul li .contents.con2 .right .bottom .link {padding: 0;display: block;}
     #wrap #main #section4 .container ul li .contents.con2 .right .bottom .link .live {padding: 5%;line-height: 180%;}
@@ -122,6 +123,9 @@
     #wrap #header .main-btn ul li {width: 50%;padding: 1% 0;}
     #wrap #header .main-btn ul li a {font-size: 20px;}
     
+    #wrap #main #section2 .container .contents .gap h3 {padding: 3%;}
+    #wrap #main #section2 .container .contents .gap p {padding: 3%;}
+   
     #wrap #main #section5 .container .gap .content {display: block;}
     #wrap #main #section5 .container .gap .content .img-box {width: 100%;padding: 5% 3%;margin: 0 auto;}
     #wrap #main #section5 .container .gap .content .img-box .back-face .text-box .text-gap hr {width: 100%;}
@@ -175,4 +179,13 @@
     
     #wrap #footer .container h2 {font-size: 12px;}
     #wrap #footer .container p {font-size: 12px;}
+}
+@media all and (max-width:410px){
+    #wrap #header .main-btn {padding: 5% 0;}
+    #wrap #header .main-btn ul li a {font-size: 20px;}
+
+    #wrap #main #section2 .container {height:1300px;}
+    #wrap #main #section2 .container .contents.con1 {height: 300px;}
+    #wrap #main #section2 .container .contents.con2 {height: 300px;}
+    #wrap #main #section2 .container .contents.con3 {height: 350px;}
 }
